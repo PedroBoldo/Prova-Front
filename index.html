@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Page Title</title>
+    <link rel='stylesheet' href='style.css'>
+</head>
+<body>.
+  <div class="container">
+    <h1>Contrle de gastos</h1>
+    <form id="form">
+      <input type="text" id="descricao" placeholder="Item" required>
+      <input type="number" id="valor" placeholder="Valor" step="0.01" required>
+      <select id="categoria">
+        <option>Alimentaçao</option>
+        <option>Transporte</option>
+        <option>Lazer</option>
+        <option>Outros</option>
+      </select>
+      <button type="sub mit">Adicionar</button>
+    </form>
+    <h2>Total: R$ <span id="total">0.00</span></h2>
+
+    <ul id="lista"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

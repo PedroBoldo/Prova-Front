@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  background: white;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+input, select, button {
+  padding: 10px;
+  font-size: 14px;
+}
+
+button {
+  background: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  padding: 10px;
+  margin-top: 10px;
+  background: white;
+  border-radius: 5px;
+  border-color: black;
+}
+
+.alto {
+  background: rgba(255, 0, 0, 0.402);
+}
+
+.delete {
+  background: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+}
